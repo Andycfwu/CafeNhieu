@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { HoursCard } from "@/components/hours-card";
 import { siteConfig } from "@/data/site";
 
 export function Hero() {
@@ -17,9 +16,6 @@ export function Hero() {
           <div className="mt-8 flex flex-wrap gap-4">
             <Link href="#menu" className="rounded-full bg-rose-500 px-6 py-3.5 text-sm font-semibold uppercase tracking-[0.18em] text-white transition hover:bg-rose-500/90">View Menu</Link>
             <Link href="#payment" className="rounded-full border border-sage-300 bg-white/70 px-6 py-3.5 text-sm font-semibold uppercase tracking-[0.18em] text-sage-500 transition hover:border-sage-500 hover:bg-sage-200/35">Payment</Link>
-          </div>
-          <div className="mt-10 max-w-xl">
-            <HoursCard />
           </div>
         </div>
         <div className="relative z-10">
